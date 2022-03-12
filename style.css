@@ -108,8 +108,11 @@ header nav {
   
 }
 #rotnome {
-  margin-right: 20px;
+  margin-right: 25px;
 }
 #rotnome:hover {
   color: red;
+}
+#imgrot {
+  margin-right: 5px;
 }
