@@ -89,17 +89,27 @@ header nav {
 #rotbar {
   display: flex;
   max-width: 1300px;
-    margin: auto;
+  margin: auto;
   min-height: 25px;
   align-items: center;
   color: white;
   justify-content: flex-end;
+  
 }
 
 #imgrot {  
-  width: 10px;
-  height: 10px;   
+  width: 20px;
+  height: 20px;   
 }
-#todos {
-  justify-content: flex-start;
+
+#test {
+  margin-right: 50px;  
+  align-items: flex-start;
+  
+}
+#rotnome {
+  margin-right: 20px;
+}
+#rotnome:hover {
+  color: red;
 }
