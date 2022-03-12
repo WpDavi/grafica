@@ -15,12 +15,18 @@ div#top {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
 }
+#dentro {
+  display: flex;
+  width: 1300px;  
+  margin: auto;
+  justify-content: space-between;
+}
 
 header div a {
   text-decoration: none;
   color: white;
   align-items: center;  
-  margin: auto;
+  
 }
 header div a:hover {
   text-decoration: underline;
@@ -82,7 +88,18 @@ header nav {
 }
 #rotbar {
   display: flex;
-  width: 1300px;
-  background-color: red;  
-  margin: auto;
+  max-width: 1300px;
+    margin: auto;
+  min-height: 25px;
+  align-items: center;
+  color: white;
+  justify-content: flex-end;
+}
+
+#imgrot {  
+  width: 10px;
+  height: 10px;   
+}
+#todos {
+  justify-content: flex-start;
 }
