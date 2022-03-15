@@ -65,19 +65,17 @@ main p {
 main #pro {
   display: flex;
   max-width: 1300px;
-  margin: auto;
-  justify-content: space-around;
-  flex-wrap: wrap
-  
+  justify-content: space-around; 
+  flex-wrap: wrap;  
 }
+
 main .produtos {
   display: flex;
   border: 5px solid #EC268F;
   border-radius: 10px;
   height: 129px;  
   width: 300px;
-  margin: 10px;
-  flex-wrap: wrap
+  margin: 10px;    
 }
 
 .proimg {
@@ -86,6 +84,12 @@ main .produtos {
   left: -34px;
   height: 220px;  
 }
+.dados{
+  height: 200px;  
+  width: 200px;
+  position: relative;
+  flex-wrap: wrap;
+  background-color: red;   
+  left: -54px;
 
-
-
+}
