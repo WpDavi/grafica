@@ -44,3 +44,12 @@ header #contato {
   color: #2A56A4;
   font-family: 'Courier New', Courier, monospace;
 }
+
+header .baixoheader ul li {  
+    background-color: #2A56A4;
+  }
+header .baixoheader ul li a {
+  color: white;
+  display: flex;
+  
+}
