@@ -88,12 +88,4 @@ main .produtos {
 }
 
 
-main #pro h2 {
-  position: relative;
-  font-size: 9px;
-  margin-left: 4px;
-  right: 50px;
-  color: #2A56A4; 
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 12px;  
-}
+
