@@ -67,6 +67,7 @@ main #pro {
   max-width: 1300px;
   justify-content: space-around; 
   flex-wrap: wrap;  
+  position: relative;
 }
 
 main .produtos {
@@ -75,7 +76,7 @@ main .produtos {
   border-radius: 10px;
   height: 129px;  
   width: 300px;
-  margin: 10px;    
+  margin: 10px;
 }
 
 .proimg {
@@ -85,11 +86,11 @@ main .produtos {
   height: 220px;  
 }
 .dados{
-  height: 200px;  
-  width: 200px;
+  position: absolute;
+  width: 600px;
+  height: 200px;    
   position: relative;
   flex-wrap: wrap;
   background-color: red;   
-  left: -54px;
-
+  left: -54px;  
 }
