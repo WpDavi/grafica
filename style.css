@@ -52,3 +52,48 @@ header .baixoheader ul li a {
   margin-left: 25px;
 
 }
+main {
+  max-width: 1300px;
+  margin: auto;
+  
+  
+}
+main p {
+  margin-left: 10px;
+}
+
+main #pro {
+  display: flex;
+  max-width: 1300px;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap
+  
+}
+main .produtos {
+  display: flex;
+  border: 5px solid #EC268F;
+  border-radius: 10px;
+  height: 129px;  
+  width: 300px;
+  margin: 10px;
+  flex-wrap: wrap
+}
+
+.proimg {
+  position: relative;
+  top: -40px; 
+  left: -34px;
+  height: 220px;  
+}
+
+
+main #pro h2 {
+  position: relative;
+  font-size: 9px;
+  margin-left: 4px;
+  right: 50px;
+  color: #2A56A4; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 12px;  
+}
