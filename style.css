@@ -27,3 +27,14 @@ header #imglogo{
   margin: 5px;
 }
 
+header .baixoheader {
+  background-color: #2A56A4;
+}
+header .baixoheader ul {
+  display: flex;
+}
+
+header .baixoheader ul li a {
+  text-decoration: none;
+  color: white;
+}
