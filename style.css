@@ -19,22 +19,36 @@ header .meioheader {
   max-width: 1300px;
   display: flex;  
   margin: auto;
-  margin-top: 15px;
+  margin-top: 7px;
   align-items: center;
   }
 
 header #imglogo{
   margin: 5px;
 }
+header .linha {
+  background-color: #2A56A4;
+  height: 30px;
+  
+}
 
 header .baixoheader {
   background-color: #2A56A4;
+  max-width: 1300px;
+  margin: auto;
 }
 header .baixoheader ul {
   display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
 }
 
 header .baixoheader ul li a {
   text-decoration: none;
   color: white;
+  margin-left: 25px;
+
 }
