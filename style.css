@@ -70,7 +70,7 @@ header .baixoheader ul li a:hover {
   padding: 6px;  
   border-radius: 8px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.419);
-  transform: scale(1.9);
+  font-size: 18px;
 }
 
 
@@ -109,8 +109,14 @@ main .produtos {
   position: relative;
   top: -40px; 
   left: -34px;
-  height: 220px;  
+  height: 220px; 
+  transition: all 0.8s; 
 }
+.proimg:hover {
+  transform: scale(1.1);
+    
+}
+
 .dados{
   position: absolute; 
   height: 200px;    
