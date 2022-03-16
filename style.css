@@ -45,17 +45,35 @@ header .baixoheader ul {
   padding-bottom: 5px;
   
 }
-.topheader a {  
+.topheader a { 
+  margin: 0px 13px; 
   text-decoration: none;
   color: white;
+  transition: all 0.5s;
+  
+}
+.topheader a:hover { 
+  color: #EC268F;
+  text-decoration: underline;
+
 }
 
 header .baixoheader ul li a {
   text-decoration: none;
   color: white;
   margin-left: 25px;
-
+  transition: all 0.5s;
 }
+
+header .baixoheader ul li a:hover {  
+  background-color: #EC268F;
+  padding: 6px;  
+  border-radius: 8px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.419);
+  transform: scale(1.9);
+}
+
+
 main {
   max-width: 1300px;
   margin: auto;
@@ -203,7 +221,6 @@ footer .foodados {
   header .baixoheader ul li a {
     margin-left: 13px;
     font-size: 12px;
-    ;
   }
 }
   
