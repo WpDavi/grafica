@@ -197,3 +197,14 @@ footer .foodados {
   }
     
 }
+@media (max-width: 470px) {
+ 
+  }
+  header .baixoheader ul li a {
+    margin-left: 13px;
+    font-size: 12px;
+    ;
+  }
+  
+  
+}
