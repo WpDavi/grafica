@@ -149,20 +149,25 @@ main .produtos {
   background-size: cover;
 }
 
-footer {
-  display: flex;
+footer {  
+  flex-direction: row;
   padding: 20px;
   margin-top: 40px;
   background-image: linear-gradient(white, #2A56A4);
 }
 footer .foodados {
-  flex-direction: row;
+  background-image: linear-gradient( rgba(255, 255, 255, 0), white);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: white;
   max-width: 1300px;
   margin: auto;
   border-radius: 20px;  
 }
 .foodados img {
-  width: 400px;
+  max-width: 300px;
+  
 
 }
