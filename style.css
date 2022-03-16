@@ -60,6 +60,8 @@ main {
 }
 main p {
   margin-left: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16pt;
 }
 
 main #pro {
@@ -156,18 +158,20 @@ footer {
   background-image: linear-gradient(white, #2A56A4);
 }
 footer .foodados {
-  background-image: linear-gradient( rgba(255, 255, 255, 0), white);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: linear-gradient( rgba(167, 17, 17, 0), white,  white);
   padding: 15px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: white;
+  align-items: center;  
   max-width: 1300px;
   margin: auto;
   border-radius: 20px;  
 }
 .foodados img {
   max-width: 300px;
-  
+}
 
+.foodados p {
+  color: rgb(70, 70, 70);
 }
