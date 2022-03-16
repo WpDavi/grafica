@@ -45,6 +45,10 @@ header .baixoheader ul {
   padding-bottom: 5px;
   
 }
+.topheader a {  
+  text-decoration: none;
+  color: white;
+}
 
 header .baixoheader ul li a {
   text-decoration: none;
@@ -174,4 +178,19 @@ footer .foodados {
 
 .foodados p {
   color: rgb(70, 70, 70);
+}
+
+@media (max-width: 650px) {
+
+ 
+  footer img {
+    display: none;
+  }
+  header .baixoheader ul li a {
+    font-size: 13px;
+  }
+  .topheader a {
+    font-size: 13px;
+  }
+    
 }
