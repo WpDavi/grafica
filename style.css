@@ -138,12 +138,31 @@ main .produtos {
 }
 
 .fundo {
-  background-color: red;
+ 
+  background-color: white;
   margin-top: 20px; 
-  height: 200px;
+  height: 350px;
   background-repeat: no-repeat;
   background-image: url(imagens/impressao_digital.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+}
+
+footer {
+  display: flex;
+  padding: 20px;
+  margin-top: 40px;
+  background-image: linear-gradient(white, #2A56A4);
+}
+footer .foodados {
+  flex-direction: row;
+  background-color: white;
+  max-width: 1300px;
+  margin: auto;
+  border-radius: 20px;  
+}
+.foodados img {
+  width: 400px;
+
 }
