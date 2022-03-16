@@ -86,11 +86,51 @@ main .produtos {
   height: 220px;  
 }
 .dados{
-  position: absolute;
-  width: 600px;
+  position: absolute; 
   height: 200px;    
   position: relative;
   flex-wrap: wrap;
-  background-color: red;   
+    
   left: -54px;  
+}
+
+.dados h2 {
+  position: relative;
+  left: 5px;
+  margin-top: 15px;
+  width: 150px;
+  font-size: 15px;
+  color: #2A56A4;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dados p { 
+  margin-top: 5px;
+  position: relative;
+  right: 10px; 
+  width: 138px;
+  font-size: 12px;
+  color: rgb(67, 67, 67);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dados .valor {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+  
+}
+.valor h5 {
+  
+  font-size: 18px;
+  margin-bottom: 6px;
+  margin-right: 5px;
+}
+.valor h3 {
+  font-size: 45px;
+}
+.valor h4 {
+  align-items: flex-start;
+  margin-bottom: 30px;
+  margin-left: 5px;
 }
