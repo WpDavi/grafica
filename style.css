@@ -68,6 +68,7 @@ main #pro {
   justify-content: space-around; 
   flex-wrap: wrap;  
   position: relative;
+ 
 }
 
 main .produtos {
@@ -77,6 +78,7 @@ main .produtos {
   height: 129px;  
   width: 300px;
   margin: 10px;
+  margin-top: 30px;
 }
 
 .proimg {
@@ -133,4 +135,15 @@ main .produtos {
   align-items: flex-start;
   margin-bottom: 30px;
   margin-left: 5px;
+}
+
+.fundo {
+  background-color: red;
+  margin-top: 20px; 
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url(imagens/impressao_digital.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
