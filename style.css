@@ -192,5 +192,8 @@ footer .foodados {
   .topheader a {
     font-size: 13px;
   }
+  .bannertop {
+    margin-top: 20px;
+  }
     
 }
