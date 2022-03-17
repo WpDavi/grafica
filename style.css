@@ -244,6 +244,11 @@ footer .foodados {
     margin-left: 13px;
     font-size: 12px;
   }
+  header .baixoheader ul li a:hover {
+    font-size: 13px;
+    color: red;
+  }
+
 
 }
   
